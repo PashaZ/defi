@@ -1,0 +1,79 @@
+.line {
+    border-top: 1px solid $button-color;
+    margin-top: 200px;
+
+}
+
+.container-footer {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    height: 368px;
+
+}
+
+.community {
+    display: block;
+    width: 453px;
+    border-right: 1px solid $button-color;
+
+}
+
+.community-main {
+    display: flex;
+    margin-top: 48px;
+    margin-bottom: 12px;
+
+    color: $primary-text-color;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.community-text {
+    display: flex;
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+
+    text-transform: uppercase;
+    color: $secondary-text-color;
+}
+
+.community-list {
+    display: flex;
+    margin-top: 52px;
+    padding: 0;
+    list-style: none;
+}
+
+.commmunity-block {
+    display: inline-block;
+    margin-left: 0px;
+    padding: 0;
+
+}
+
+
+.commmunity-block:not(:last-child) {
+    margin-left: 0;
+    margin-right: 24px;
+}
+
+.community-image-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    width: 56px;
+    height: 56px;
+
+    background-color: $secondary-bg-color;
+    border-radius: 16px;
+}
+
+.community-image {
+    width: 24px;
+}

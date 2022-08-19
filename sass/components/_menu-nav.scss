@@ -1,0 +1,44 @@
+.main-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 1170px
+}
+
+.site-nav {
+    display: flex;
+}
+
+.list {
+    list-style: none;
+    margin-left: 253px;
+    margin-right: 283px;
+    gap: 40px;
+}
+
+.menu-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: $primary-text-color;
+}
+
+.btn {
+    box-sizing: border-box;
+    padding: 8px 24px;
+
+    background: $primary-text-color;
+    border-radius: 30px;
+    border: 1px solid $button-border-color;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+
+}
