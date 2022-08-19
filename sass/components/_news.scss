@@ -15,10 +15,10 @@
     width: 270px;
     height: 267px;
     border-radius: 8px;
-}
 
-.news-media:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+}
 }
 
 .block-news-img {

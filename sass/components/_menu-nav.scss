@@ -14,7 +14,7 @@
 }
 
 .list {
-    list-style: none;
+    @extend .list-none;
     margin-left: 253px;
     margin-right: 283px;
     gap: 40px;

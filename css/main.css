@@ -50,7 +50,7 @@ button {
 }
 
 .list {
-  list-style: none;
+  @extends .list-none;
   margin-left: 253px;
   margin-right: 283px;
   gap: 40px;
@@ -152,7 +152,6 @@ button {
   height: 267px;
   border-radius: 8px;
 }
-
 .news-media:not(:last-child) {
   margin-right: 30px;
 }
@@ -239,7 +238,6 @@ button {
   width: 568px;
   height: 88px;
 }
-
 .unique-card:not(:last-child) {
   margin-bottom: 48px;
 }
@@ -322,10 +320,10 @@ button {
 }
 
 .community-list {
+  @extends .list-none;
   display: flex;
   margin-top: 52px;
   padding: 0;
-  list-style: none;
 }
 
 .commmunity-block {
@@ -333,7 +331,6 @@ button {
   margin-left: 0px;
   padding: 0;
 }
-
 .commmunity-block:not(:last-child) {
   margin-left: 0;
   margin-right: 24px;
@@ -377,19 +374,18 @@ button {
 }
 
 .navigation-list {
+  @extends .list-none;
   display: block;
   padding: 0;
   font-family: inherit;
   font-weight: 400;
   font-size: 18px;
-  list-style: none;
 }
 
 .navigation-link {
   margin-top: 16px;
 }
-
-.navigation-link:not(:first-child) {
+.navigation-link :not(:first-child) {
   margin-top: 24px;
 }
 

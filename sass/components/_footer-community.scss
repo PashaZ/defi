@@ -42,10 +42,10 @@
 }
 
 .community-list {
+    @extend .list-none;
     display: flex;
     margin-top: 52px;
     padding: 0;
-    list-style: none;
 }
 
 .commmunity-block {
@@ -53,13 +53,14 @@
     margin-left: 0px;
     padding: 0;
 
+    &:not(:last-child) {
+        margin-left: 0;
+        margin-right: 24px;
+    }
 }
 
 
-.commmunity-block:not(:last-child) {
-    margin-left: 0;
-    margin-right: 24px;
-}
+
 
 .community-image-block {
     display: flex;
