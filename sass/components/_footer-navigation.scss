@@ -24,7 +24,7 @@
 }
 
 .navigation-list {
-    @extend .list-none;
+    @extend %list-none;
     display: block;
 
     padding: 0;

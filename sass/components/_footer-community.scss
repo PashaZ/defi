@@ -42,7 +42,7 @@
 }
 
 .community-list {
-    @extend .list-none;
+    @extend %list-none;
     display: flex;
     margin-top: 52px;
     padding: 0;

@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+// @media screen and (min-width:1000px) 
+
 body {
   background-color: $primary-bg-color;
 
@@ -12,6 +14,8 @@ body {
   font-family: $main-font-family;
 
 }
+
+
 
 img {
   display: block;
